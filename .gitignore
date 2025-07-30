@@ -1,0 +1,48 @@
+# SFDX-specific
+.sfdx
+*.log
+*.local
+*.scratch-org
+*.org
+*.history
+
+# VS Code settings
+.vscode/
+.project
+.classpath
+.settings/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Node modules (if using npm)
+node_modules/
+npm-debug.log
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Coverage reports
+coverage/
+
+# LWC Jest test output
+test-results/
+junit/
+*.test.js.snap
+
+# Zip & metadata deployment files
+*.zip
+*.tar.gz
+
+# Temporary or personal files
+*.bak
+*.tmp
+*.swp
+
+# Salesforce package artifacts
+package.xml
+deploy/
